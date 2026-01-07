@@ -1,0 +1,21 @@
+[
+  {
+    "Id": "9155d336-a830-491c-80d4-afaf4322a295",
+    "Number": 2,
+    "Customer": "jfhfg",
+    "DateTime": "2026-01-07T21:51:17.5019911+03:00",
+    "Total": 5200.0,
+    "UserId": "a948093c-3f83-45c0-8ab1-1680b32c864a",
+    "Items": [
+      {
+        "Id": "c9b2f6d7-8296-45c1-9947-b6c48d437115",
+        "Name": "Lamb",
+        "Price": 520.0,
+        "Quantity": 10,
+        "TotalPrice": 5200.0,
+        "ProductId": "ef4b66ca-c4ad-4033-9403-a1860f6ae8be"
+      }
+    ],
+    "Status": true
+  }
+]

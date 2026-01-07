@@ -1,0 +1,16 @@
+[
+  {
+    "Id": "6dc8338e-a13b-490f-9cfa-53ae2b9b800f",
+    "Name": "Adnan",
+    "Password": "123123",
+    "TradetionalNumber": "01020345698",
+    "PhoneNumber": "0942386432"
+  },
+  {
+    "Id": "a948093c-3f83-45c0-8ab1-1680b32c864a",
+    "Name": "admin",
+    "Password": "12345",
+    "TradetionalNumber": "01020345879",
+    "PhoneNumber": "0936458051"
+  }
+]
