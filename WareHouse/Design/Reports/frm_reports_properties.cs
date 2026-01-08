@@ -17,7 +17,7 @@ namespace WareHouse.Design
     public partial class frm_reports_properties : Form
     {
         private readonly IUnitOfWork _unitOfWork;
-        public string Name;
+        public string Name = null;
         public DateTime dateFrom;
         public DateTime dateTo;
         public bool cheack = true;
@@ -38,14 +38,16 @@ namespace WareHouse.Design
         private void btn_ok_Click(object sender, EventArgs e)
         {
             var bills = _unitOfWork.bill.GetAll();
-            if (ToolsBoxHelper.CheackTheEmpty(txt_name_customer) == true)
+            if (!string.IsNullOrWhiteSpace(txt_name_customer.Text))
             {
-                if (IsExists.CustomerName(txt_name_customer.Text, bills) == true)
+                if (IsExists.CustomerName(txt_name_customer.Text, bills))
                 {
                     Name = txt_name_customer.Text;
                 }
-                else Name = "";
+                else MessageBox.Show("The name not exsits");
             }
+            else
+                Name = null;
 
             DateTime from = dt_from.Value;
             DateTime to = dt_to.Value;

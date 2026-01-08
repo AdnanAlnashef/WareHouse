@@ -87,6 +87,12 @@
     <Compile Include="Design\Confirm\frm_confirm.Designer.cs">
       <DependentUpon>frm_confirm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Design\Confirm\frm_confirm_reset.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design\Confirm\frm_confirm_reset.Designer.cs">
+      <DependentUpon>frm_confirm_reset.cs</DependentUpon>
+    </Compile>
     <Compile Include="Design\Main\frm_quantities.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -209,6 +215,9 @@
     <Compile Include="ViewModels\Reports\ProfitVM.cs" />
     <EmbeddedResource Include="Design\Confirm\frm_confirm.resx">
       <DependentUpon>frm_confirm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\Confirm\frm_confirm_reset.resx">
+      <DependentUpon>frm_confirm_reset.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Design\Main\admenstrative_menu.resx">
       <DependentUpon>admenstrative_menu.cs</DependentUpon>

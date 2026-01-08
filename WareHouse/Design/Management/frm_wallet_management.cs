@@ -84,7 +84,7 @@ namespace WareHouse.Design.Management
 
         private void btn_reset_Click(object sender, EventArgs e)
         {
-            frm_confirm frm = new frm_confirm();
+            frm_confirm_reset frm = new frm_confirm_reset();
             frm.ShowDialog();
             if (frm.cheack == true)
             {
