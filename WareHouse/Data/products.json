@@ -4,31 +4,39 @@
     "ProductName": "Lamb",
     "PurchasePrice": 500.0,
     "SellingPrice": 520.0,
-    "Quantity": 1,
-    "IdCategory": "8651dd63-3ae2-4bc4-bac6-002029869300"
-  },
-  {
-    "Id": "8d6929df-7ff0-4dd1-b99c-2b1a859de8ca",
-    "ProductName": "gdfg",
-    "PurchasePrice": 2500.0,
-    "SellingPrice": 3000.0,
-    "Quantity": 86,
-    "IdCategory": "8651dd63-3ae2-4bc4-bac6-002029869300"
-  },
-  {
-    "Id": "1745d028-4306-4e1a-b6c7-910e4627ce03",
-    "ProductName": "fjgjh",
-    "PurchasePrice": 3000.0,
-    "SellingPrice": 3200.0,
-    "Quantity": 66,
-    "IdCategory": "8651dd63-3ae2-4bc4-bac6-002029869300"
-  },
-  {
-    "Id": "7a10fd26-f619-4b55-a720-02765ba211ea",
-    "ProductName": "fgdfgdf",
-    "PurchasePrice": 250.0,
-    "SellingPrice": 1200.0,
     "Quantity": 50,
+    "IdCategory": "8651dd63-3ae2-4bc4-bac6-002029869300"
+  },
+  {
+    "Id": "179cd2ae-b1a7-4a03-89dd-86d115eda071",
+    "ProductName": "shirt",
+    "PurchasePrice": 500.0,
+    "SellingPrice": 600.0,
+    "Quantity": 80,
+    "IdCategory": "426febb9-e5f7-45b4-8cb8-24101dd468fd"
+  },
+  {
+    "Id": "fc6ebff0-9564-4052-b6a5-b4eeb84d1c8d",
+    "ProductName": "strawbary",
+    "PurchasePrice": 600.0,
+    "SellingPrice": 700.0,
+    "Quantity": 300,
     "IdCategory": "53a8ba83-f401-4bb8-af5c-88065b210f8f"
+  },
+  {
+    "Id": "58c4d8cc-678e-4db9-b707-2c51cb472a92",
+    "ProductName": "hammer",
+    "PurchasePrice": 1000.0,
+    "SellingPrice": 1200.0,
+    "Quantity": 12,
+    "IdCategory": "896d492d-bb98-41bc-8e9c-cde74ee0e92a"
+  },
+  {
+    "Id": "8956265d-f622-402c-9392-cf764dacc36e",
+    "ProductName": "pizza",
+    "PurchasePrice": 800.0,
+    "SellingPrice": 900.0,
+    "Quantity": 50,
+    "IdCategory": "d31a850f-50a4-43e9-b2d3-d66440018d6b"
   }
 ]

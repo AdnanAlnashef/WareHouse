@@ -20,12 +20,19 @@ namespace WareHouse.Services
         }
         public int GetNextInvoiceNumber()
         {
+            int count = 0;
             var userId = AppSession.CurrentUser.Id;
             var bills = _unitOfWork.bill.GetAll()
                 .Where(b => b.UserId == userId);
-            if (!bills.Any())
+            foreach ( var bill in bills )
+            {
+                count++;
+                bill.Number = count;
+                _unitOfWork.bill.Update(bill);
+            }
+            if (count==0)
                 return 1;
-            return bills.Max(b => b.Number) + 1;
+            return count + 1;
         }
     }
 }

@@ -72,12 +72,11 @@ namespace WareHouse.Design
                 frmConfirm.ShowDialog();
                 if (frmConfirm.cheack == true)
                 {
-                    if (billsThisCustomer.Count > 0)
+                    if (billsThisCustomer.Count != 0)
                     {
                         foreach (var b in billsThisCustomer)
                         {
-                            _unitOfWork.bill.Delete(b.Id);
-                            billsThisCustomer.Remove(b);
+                            _unitOfWork.bill.Delete(b.Id);   
                         }
                     }
                     else MessageBox.Show("No bills for delete");
